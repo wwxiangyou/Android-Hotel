@@ -4,4 +4,6 @@
     <string name="search_message">输入酒店名称</string>
     <string name="button_send">搜索</string>
     <string name="me">登录</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
 </resources>

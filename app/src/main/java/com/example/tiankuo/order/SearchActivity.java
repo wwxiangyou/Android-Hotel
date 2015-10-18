@@ -67,6 +67,19 @@ public class SearchActivity extends AppCompatActivity {
         hotel_list.add("酒店名称 价格 地址");
         hotel_list.add("酒店名称 价格 地址");
         hotel_list.add("酒店名称 价格 地址");
+        hotel_list.add("酒店名称 价格 地址");
+        hotel_list.add("酒店名称 价格 地址");
+        hotel_list.add("酒店名称 价格 地址");
+        hotel_list.add("酒店名称 价格 地址");
+        hotel_list.add("酒店名称 价格 地址");
+        hotel_list.add("酒店名称 价格 地址");
+        hotel_list.add("酒店名称 价格 地址");
+        hotel_list.add("酒店名称 价格 地址");
+        hotel_list.add("酒店名称 价格 地址");
+        hotel_list.add("酒店名称 价格 地址");
+        hotel_list.add("酒店名称 价格 地址");
+        hotel_list.add("酒店名称 价格 地址");
+
         ad.notifyDataSetChanged();
     }
 }
