@@ -30,7 +30,7 @@ public class MainActivity extends TabActivity {
         spec=tabHost.newTabSpec("订房").setIndicator("订房").setContent(intent);
         tabHost.addTab(spec);
 
-        intent=new Intent().setClass(this, ProfileActivity.class);
+        intent=new Intent().setClass(this, LoginActivity.class);
         spec=tabHost.newTabSpec("我").setIndicator("我").setContent(intent);
         tabHost.addTab(spec);
 
@@ -39,10 +39,10 @@ public class MainActivity extends TabActivity {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
                 switch (checkedId) {
-                    case R.id.main_tab_search://添加考试
+                    case R.id.main_tab_search:
                         tabHost.setCurrentTabByTag("订房");
                         break;
-                    case R.id.main_tab_profile://我的考试
+                    case R.id.main_tab_profile:
                         tabHost.setCurrentTabByTag("我");
                         break;
                     default:
